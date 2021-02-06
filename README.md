@@ -34,7 +34,8 @@ DESCRIPTION
                         ["Mr\nXavier\nHuon", 32, "Xav'"],
                         ["Mr\nBaptiste\nClement", 1, "Baby"],
                         ["Mme\nLouise\nBourgeau", 28, "Lou\n\nLoue"]])
-        print table.draw() + "\n"
+        print(table.draw())
+        print()
 
         table = Texttable()
         table.set_deco(Texttable.HEADER)
@@ -49,7 +50,7 @@ DESCRIPTION
                         ["efghijk", 67.5434, .654,  89.6,  12800000000000000000000.00023],
                         ["lmn",     5e-78,   5e-78, 89.4,  .000000000000128],
                         ["opqrstu", .023,    5e+78, 92.,   12800000000000000000000]])
-        print table.draw()
+        print(table.draw())
 
     Result:
 
